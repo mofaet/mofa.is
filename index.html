@@ -3,83 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MOFA — Interior Essentials</title>
+  <title>MOFA</title>
   <style>
     body {
       font-family: sans-serif;
       margin: 0;
-      background: #fff;
-      color: #222;
+      padding: 0;
       text-align: center;
     }
+
     h1 {
-      font-size: 2em;
-      margin-top: 60px;
+      margin-top: 40px;
+      font-size: 2.5em;
     }
-    p {
-      margin-top: 0.5em;
-      font-size: 1em;
+
+    p.description {
+      margin-bottom: 50px;
+      font-size: 1.1em;
     }
+
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
       gap: 40px;
-      padding: 40px;
-      max-width: 1200px;
-      margin: 0 auto;
+      padding: 0 40px 80px;
+      justify-items: center;
     }
+
     .item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      max-width: 400px;
     }
+
     .item img {
       width: 100%;
-      max-width: 300px;
       height: auto;
-      object-fit: contain;
-      margin-bottom: 20px;
     }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 0.95em;
+      color: #444;
+    }
+
     .price {
-      margin: 8px 0;
       font-weight: bold;
-    }
-    .tag {
-      font-size: 0.9em;
-      color: #666;
+      margin-top: 5px;
     }
   </style>
 </head>
 <body>
   <h1>MOFA</h1>
-  <p>Interior Essentials. Handcrafted. Vegan.</p>
+  <p class="description">Interior Essentials. Handcrafted. Vegan.</p>
 
   <div class="grid">
     <div class="item">
-      <img src="candleBambooGreen.JPEG" alt="Candle Bamboo Green">
-      <div class="tag">Handmade • Vegan</div>
+      <img src="candleBambooGreen.JPEG" alt="candleBambooGreen">
+      <div class="caption">candleBambooGreen<br/>Handmade • Vegan</div>
       <div class="price">$29</div>
     </div>
     <div class="item">
-      <img src="candleBambooWhite.JPEG" alt="Candle Bamboo White">
-      <div class="tag">Handmade • Vegan</div>
+      <img src="candleBambooWhite.JPEG" alt="candleBambooWhite">
+      <div class="caption">candleBambooWhite<br/>Handmade • Vegan</div>
       <div class="price">$29</div>
     </div>
     <div class="item">
-      <img src="candleBirchColored.JPEG" alt="Candle Birch Colored">
-      <div class="tag">Handmade • Vegan</div>
+      <img src="candleBirchColored.JPEG" alt="candleBirchColored">
+      <div class="caption">candleBirchColored<br/>Handmade • Vegan</div>
       <div class="price">$29</div>
     </div>
     <div class="item">
-      <img src="candleBirchWhite.JPEG" alt="Candle Birch White">
-      <div class="tag">Handmade • Vegan</div>
+      <img src="candleBirchWhite.JPEG" alt="candleBirchWhite">
+      <div class="caption">candleBirchWhite<br/>Handmade • Vegan</div>
       <div class="price">$29</div>
     </div>
   </div>
-
-  <p style="margin-bottom: 60px;">
-    <a href="mailto:hello@mofa.is">hello@mofa.is</a> •
-    <a href="https://www.instagram.com" target="_blank">Instagram</a>
-  </p>
 </body>
 </html>
