@@ -4,22 +4,61 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>BambooWhite – MOFA</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      margin: 20px 0;
+    }
+    header a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.5em;
+    }
+    .main-photo {
+      max-width: 100%;
+      height: auto;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 40px auto;
+      max-width: 960px;
+      padding: 0 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+    }
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; background: white; text-align: center;">
+<body>
+  <header>
+    <a href="index.html">MoFA</a>
+  </header>
 
-  <h1>
-    <a href="index.html" style="text-decoration: none; color: black;">MoFA</a>
-  </h1>
+  <h1>BambooWhite</h1>
   <p>Handmade • Vegan</p>
+  <img src="candleBambooWhite.JPEG" alt="BambooWhite" class="main-photo">
 
-  <img src="candleBambooWhite.JPEG" alt="BambooWhite" style="max-width: 100%; height: auto;" />
-  <br><br>
+  <div class="gallery">
+    <img src="bamboowhite2.jpg" alt="bamboowhite2">
+    <img src="bamboowhitegiftbox.jpg" alt="bamboowhitegiftbox">
+    <img src="candlesassorti.jpg" alt="candlesassorti">
+  </div>
 
-  <img src="bamboowhite2.jpg" width="300">
-  <img src="bamboowhitegiftbox.jpg" width="300">
-  <img src="candlesassorti.jpg" width="300">
-
-  <p style="font-size: 20px;"><strong>$29</strong></p>
-
+  <p class="price">$29</p>
 </body>
 </html>
